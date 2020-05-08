@@ -27,7 +27,6 @@ public class Exercise09 {
 				}
 				b = 0;
 				for (int a : scores) {
-					// 반복할때마다 배열의 값이 a로 대입
 					System.out.println("성적 입력");
 					int student = scanner.nextInt();
 					scores[b++] = student;
