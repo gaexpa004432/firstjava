@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Example {
 
 	public static void main(String[] args) {
-		Student std = new Student();
+		Student std = new Student();//여러개의 기본생성자 만들떄 빈생성자도 생성해야함
 		Scanner scan = new Scanner(System.in);
 		Student std1 = new Student();
 //		std.study();
@@ -23,10 +23,11 @@ public class Example {
 
 		// 배열의 값대신 클래스의 주소값을 저장해야함
 		Troy[] T = new Troy[8];
-//		Troy T1 = new Troy();
-//		Troy T2 = new Troy();
-//		T[0] = T1;
-//		T[1] = T2;
+		Troy T1 = new Troy();
+		Troy T2 = new Troy();
+		T[0] = T1;
+		T[1] = T2;
+		T[2] = new Troy();
 		// String a = scan.nextLine();
 
 		T[0].zombipc = "ddos ";
