@@ -19,18 +19,17 @@ public class Account {
 	public void setBalance(int balance) {
 		if (balance <0) {
 			balance = this.balance;
-		}else if(balance> 10000000) {
-			balance = this.balance;
-		}		
-			this.balance += balance;
+			System.out.println("양수만 가능합니다");
+		}
+		this.balance =	 balance;
 	}
 	public void setBal(int balance) {
-	if (this.balance < balance) {
-		System.out.println("잔액이 부족합니다");
+	
+
 		
-	}else {
-	this.balance =	this.balance - balance;
-	}
+	
+	this.balance =	balance;
+	
 	}
 	public int getBalance() {
 		return balance;
