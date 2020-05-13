@@ -24,7 +24,7 @@ public class UnivFriend extends Friend {
 
 	@Override
 	public void showInfo() {
-		System.out.println("ÀÌ¸§ : " + name + " ÀüÈ­¹øÈ£ : "+phone + " Àü°ø : " + j);
+		System.out.println("ì´ë¦„ : " + name + " ë²ˆí˜¸ : "+phone + " ì „ê³µ : " + j);
 	}
 	
 

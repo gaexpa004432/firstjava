@@ -15,7 +15,7 @@ public class CompFriend extends Friend {
 	
 	@Override
 	public void showInfo() {
-		System.out.println("ÀÌ¸§ : " + name + " ÀüÈ­¹øÈ£ : "+phone + " ºÎ¼­ : " + Buseo);
+		System.out.println("ì´ë¦„: " + name + " ë²ˆí˜¸ : "+phone + " ë¶€ì„œ : " + Buseo);
 	}
 
 }

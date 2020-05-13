@@ -1,7 +1,7 @@
 package com.yedam.classes.inherit;
 
 public class Friend {
-	//ÇÊµå
+	//ï¿½Êµï¿½
 	String name;
 	String phone;
 	
@@ -13,7 +13,7 @@ public class Friend {
 		this.phone = phone;
 	}
 	
-	//¸Ş¼Òµå
+	//ï¿½Ş¼Òµï¿½
 	public String getName() {
 		return name;
 	}
@@ -28,7 +28,7 @@ public class Friend {
 	}
 	
 	public void showInfo() {
-		System.out.println("ÀÌ¸§ : " + name + " ÀüÈ­¹øÈ£ : "+phone);
+		System.out.println("ì´ë¦„ : " + name + " ë²ˆí˜¸ : "+phone);
 	}
 
 }

@@ -13,38 +13,38 @@ public class AddressBook {
 
 		while (true) {
 			System.out.println("----------------------------------");
-			System.out.println("1.Ä£±¸ 2.´ëÇĞ 3.È¸»ç 4.ÁÖ¼Ò·Ï 5.°Ë»ö 6.Á¾·á");
+			System.out.println("1.ì¹œêµ¬ 2.ëŒ€í•™ 3.íšŒì‚¬ 4.ë¦¬ìŠ¤íŠ¸ 5.ê²€ìƒ‰ 6.ì¢…ë£Œ");
 			System.out.println("----------------------------------");
-			System.out.print("¼±ÅÃ> ");
+			System.out.print("ì„ íƒ> ");
 			int menu = scn.nextInt();
 			scn.nextLine();
 			if (menu == 1) {
-				System.out.println("ÀÌ¸§ : ");
+				System.out.println("ì´ë¦„ : ");
 				String ab = scn.next();
 
-				System.out.println("ÀüÈ­¹øÈ£ : ");
+				System.out.println("ë²ˆí˜¸ : ");
 				String abc = scn.next();
 				Friend f1 = new Friend(ab, abc);
 				f[i] = f1;
 				i++;
 			} else if (menu == 2) {
-				System.out.println("ÀÌ¸§ : ");
+				System.out.println("ì´ë¦„ : ");
 				String ab = scn.next();
 
-				System.out.println("ÀüÈ­¹øÈ£ : ");
+				System.out.println("ë²ˆí˜¸ : ");
 				String abc = scn.next();
-				System.out.println("Àü°ø : ");
+				System.out.println("ì „ê³µ : ");
 				String abcd = scn.next();
 				UnivFriend f1 = new UnivFriend(ab, abc, abcd);
 				f[i] = f1;
 				i++;
 			} else if (menu == 3) {
-				System.out.println("ÀÌ¸§ : ");
+				System.out.println("ì´ë¦„ : ");
 				String ab = scn.next();
 
-				System.out.println("ÀüÈ­¹øÈ£ : ");
+				System.out.println("ë²ˆí˜¸ : ");
 				String abc = scn.next();
-				System.out.println("ºÎ¼­ : ");
+				System.out.println("ë¶€ì„œ : ");
 				String abcd = scn.next();
 
 				CompFriend f1 = new CompFriend(ab, abc, abcd);
@@ -53,31 +53,35 @@ public class AddressBook {
 
 			}
 			else if (menu == 4) {
-				System.out.println("ÁÖ¼Ò·Ï ¼±ÅÃ.");
+				System.out.println("ë¦¬ìŠ¤íŠ¸");
 				for (Friend acc : f) {
 					if (acc != null) {
 						acc.showInfo();
 					}
+						
+					
 				}
 			}
 
 			else if (menu == 5) {
-				System.out.println("°Ë»öÇÒ ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À : ");
+				System.out.println("ê²€ìƒ‰ ì´ë¦„ : ");
 				String ab = scn.next();
 				for (Friend acc : f) {
 					if (acc != null) {
 						if (acc.getName().equals(ab)) {
 							acc.showInfo();
+						}else {
+							System.out.println("ê²€ìƒ‰ ê²°ê³¼ê°€ ì—†ìŠµë‹ˆë‹¤.");
 						}
 					}
 				}
 			}else if (menu ==6 ){
-				System.out.println("Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ì¢…ë£Œ.");
 				break;
 			}
 
 			else {
-				System.out.println("1~6ÀÇ Á¤¼ö¸¦ ³Ö¾îÁÖ¼¼¿ä.");
+				System.out.println("1~6ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” .");
 			}
 		}  
 	}
