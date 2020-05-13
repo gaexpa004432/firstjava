@@ -4,6 +4,7 @@ public class Parent {
 	private String lastname;
 	private String firstname;
 	private String telNumber;
+	Parent a = new Parent();
 	public Parent() {
 		
 	}

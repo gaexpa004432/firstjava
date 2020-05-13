@@ -1,5 +1,7 @@
 package com.yedam.classes;
 
+
+
 public class Car {
 	String model;
 	int maxSpeed;
@@ -21,5 +23,5 @@ public class Car {
 		System.out.println("최고속도"+maxSpeed);
 	}
 
-	
+
 }

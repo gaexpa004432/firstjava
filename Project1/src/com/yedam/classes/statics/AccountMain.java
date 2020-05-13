@@ -1,6 +1,8 @@
 package com.yedam.classes.statics;
 
-public class AccountMain {
+import com.yedam.classes.inherit.Parent;
+
+public class AccountMain extends Parent {
 
 	public static void main(String[] args) {
 		//AccountApplication app =new AccountApplication(); 
