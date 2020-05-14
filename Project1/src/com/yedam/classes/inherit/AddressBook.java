@@ -21,7 +21,6 @@ public class AddressBook {
 			if (menu == 1) {
 				System.out.println("이름 : ");
 				String ab = scn.next();
-
 				System.out.println("번호 : ");
 				String abc = scn.next();
 				Friend f1 = new Friend(ab, abc);
