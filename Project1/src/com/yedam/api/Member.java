@@ -1,11 +1,11 @@
 package com.yedam.api;
 
 public class Member {
-	public StringExample id;
+	public String id;
 	public Member() {
 		
 	}
-	public Member(StringExample id) {
+	public Member(String id) {
 		this.id = id;
 	}
 	@Override
@@ -15,7 +15,7 @@ public class Member {
 //		return super.equals(obj);
 	}
 	@Override
-	public StringExample toString() {
+	public String toString() {
 		return "Member [id=" + id + "]";
 	}
 	@Override

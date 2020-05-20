@@ -2,7 +2,7 @@ package com.yedam.api;
 
 public class MemberExample {
 
-	public static void main(StringExample[] args) {
+	public static void main(String[] args) {
 		Member m1 = new Member("Hong");
 		Member m2 = new Member("Hong");
 		Member m3 = new Member("Park");
