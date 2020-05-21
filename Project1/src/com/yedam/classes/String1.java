@@ -6,9 +6,18 @@ public class String1 {
 		String str1 = "Hello";
 		String str2 = "Hello";
 		String str3 = new String("hello");
-		System.out.println(str1);
-		System.out.println(str2);
-		System.out.println(str3);
+		String str4 = new String("hello");
+		Integer int1 = new Integer(1);
+		Integer int2 = new Integer(1);
+		System.out.println(str1 == str2);
+		System.out.println(str2 == str3);
+		System.out.println(int1.equals(int2));
+		System.out.println(int1 == int2);
+		System.out.println(str4);
+		
+		
+		
+		
 	}
 
 }
