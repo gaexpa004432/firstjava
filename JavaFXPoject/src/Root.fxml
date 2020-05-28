@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.*?>
-<?import java.lang.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
+
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
@@ -18,8 +14,8 @@
 
 	<children>
 	
-		<TextField prefWidth="800" />
-		<Button text="OK" textAlignment="CENTER" textFill="RED" />
+		<TextField prefWidth="300" />
+		<Button text="OK" textAlignment="CENTER" textFill="RED"  />
 		
 	</children>
 </HBox>
