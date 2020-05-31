@@ -12,7 +12,7 @@ public class BaseBall {
 			for (int j = 0; j < i; j++) {
 				if (a[i] == a[j]) { // 중복 제거
 					a[i] = (int) (Math.random() * 10);
-					j = 0;
+					j = -1;
 				}
 			}
 			System.out.println(a[i]);
