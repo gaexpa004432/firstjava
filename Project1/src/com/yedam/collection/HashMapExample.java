@@ -28,8 +28,6 @@ public class HashMapExample {
 		System.out.println("80 more output");
 		getMap(scores);
 		Set<String> set = new HashSet<>(); // 순서가 없음 ,중복 불가
-		Map<String, Integer> map = new HashMap<>(); //
-		// key:value
 		set.add("Hong");
 		set.add("Hwang");
 		Iterator<String> iterator = set.iterator();
@@ -37,6 +35,8 @@ public class HashMapExample {
 			String str = iterator.next(); // 존재한다면 요소를 들고옴
 			System.out.println(str.toString());
 		}
+		Map<String, Integer> map = new HashMap<>(); //
+		// key:value
 
 		map.put("Hong", 98);
 		map.put("Haong", 90);
